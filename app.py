@@ -8,9 +8,9 @@ st.title("Object Detection")
 @st.cache_resource
 def get_model(coco=False):
     if coco:
-        model_path = "yolov10x.pt"
+        model_path = "yolov8l.pt"
     else:
-        model_path = "yolov8x-oiv7.pt"
+        model_path = "yolov8l-oiv7.pt"
     return load_model(model_path)
 
 
