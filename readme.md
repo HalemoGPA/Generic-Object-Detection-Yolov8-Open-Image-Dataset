@@ -1,5 +1,3 @@
-# README.md
-
 # Object Detection with YOLOv8
 
 This project demonstrates an advanced object detection application utilizing the YOLOv8 model. It features a Streamlit-based web interface, allowing users to upload images and receive detailed object detection results. The application supports object detection using both the COCO and Open Images V7 datasets, providing robust and versatile performance.
